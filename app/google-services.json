@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "898436151586",
+    "firebase_url": "https://khataman-fauzan.firebaseio.com",
+    "project_id": "khataman-fauzan",
+    "storage_bucket": "khataman-fauzan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898436151586:android:c0c340f6a36e6754",
+        "android_client_info": {
+          "package_name": "widyanto.fauzan.learnfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898436151586-9hvcmr780t7ptn2lgja1cc8s78hd1hdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ3UPHhDW-oOhV0pGL0rv4qMVTeQr6dkQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
