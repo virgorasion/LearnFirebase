@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="widyanto.fauzan.learnfirebase.MainActivity"
+    tools:context="widyanto.fauzan.learnfirebase.Main2Activity"
     android:padding="16dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Form Login"
-        android:textSize="25sp"
+        android:text="Form Daftar"
         android:layout_alignParentTop="true"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:textSize="25sp"/>
 
     <EditText
-        android:layout_centerInParent="true"
-        android:id="@+id/mainEmail"
+        android:layout_above="@id/regPass"
+        android:id="@+id/regEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/email_address"
@@ -25,29 +25,19 @@
         android:layout_marginBottom="7dp"/>
 
     <EditText
-        android:layout_below="@+id/mainEmail"
+        android:layout_centerInParent="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/password"
-        android:id="@+id/mainPassword"
+        android:id="@+id/regPass"
         android:inputType="textPassword"
         android:layout_marginBottom="7dp"/>
 
     <Button
-        android:id="@+id/submit"
-        android:layout_below="@id/mainPassword"
+        android:id="@+id/daftar"
+        android:layout_below="@id/regPass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login"/>
-
-    <TextView
-        android:id="@+id/daftar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/submit"
-        android:text="Daftar"
-        android:textSize="18sp"
-        android:linksClickable="true"/>
-
 
 </RelativeLayout>
